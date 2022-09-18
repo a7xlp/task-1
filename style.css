@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,100;1,300;1,500;1,700;1,900&display=swap");
+
+/* reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* css styles body html*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --background: #f9f9f9;
+  --fill: #f0f2f5;
+  --blue-light: #6933ff;
+  --blue: #5429cc;
+  --red: #e52e4d;
+  --text: #363f5f;
+  --text-title: #969cb3;
+  --text-line: #646c8a;
+
+  --shape: #ffffff;
+  --green: #33cc95;
+}
+.header {
+  width: 100%;
+  background: var(--blue);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header span {
+  margin-left: 8.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--fill);
+}
+.table {
+  border-spacing: 0 0.5rem;
+  width: 80%;
+  background: transparent;
+  border-radius: 0.25rem;
+  margin: 2rem auto;
+  border: 1px solid var(--text);
+}
+
+.table tr th {
+  font-weight: bold;
+  width: auto;
+  padding: 1.2rem 1rem;
+  text-align: left;
+  color: var(--text);
+  text-align: center;
+  border: 1px solid var(--text);
+}
+
+.table tr {
+  background: transparent;
+}
+.table td {
+  padding: 1.2rem 1rem;
+  text-align: left;
+  font-weight: 400;
+  background: var(--fill);
+  color: var(--text);
+  border: 1px solid var(--text-line);
+  text-align: center;
+}
+
+.text-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
